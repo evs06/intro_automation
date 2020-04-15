@@ -82,19 +82,19 @@ construirlisto=true
 return construirlisto ;
 }
 
-void untar(ingrediente){
+void untar(mayoneza, mostaza){
 1.- Abrir o despatapar el frasco del ingrediente
 2.- Con el cuchillo untar una porción al gusto del ingredientes
 3.- Untar sobre un pedazo de pan el ingrediente
 }
 
 
-void lavar(ingrediente){
+void lavar(jitomate, cebolla, lechuga){
 1.- Lavar el ingrediente con agua y jabón
 2.- Secar el ingrediente
 }
 
-void rebanar(ingrediente){
+void rebanar(jitomate, cebolla, lechuga){
 1.- Tomar el cuchillo
 2.- Cortar el ingrediente al gusto para el sandwich
 }
