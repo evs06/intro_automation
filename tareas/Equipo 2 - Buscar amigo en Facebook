@@ -1,0 +1,54 @@
+verFotosFacebookAmigo() {
+    loginFacebook()
+    buscarAmigo()
+    entrarAlbums()
+    ver20Fotos()
+}
+
+	loginFacebook(){
+	1.- Abrir el browser
+	2.- Ingresar la URL de Facebook
+	 * Verificar campo Usuario
+	 * Verificar campo Contraseña
+	 * Verificar botón Login
+	 3.- Ingresar información
+	 * Ingresar Usuario: test@gmial.com
+	 * Ingresar Contraseña: Test123
+	 4.- Hacer clic en el botón Login	
+	 * Verificar Landing Page
+	 * Verficiar que estemos con nuestro usuario logueado
+	}
+
+    buscarAmigo(){
+	1.- Escribir el nombre del amigo en el buscador
+	* Verificar el listado de coincidencias
+	* Verficiar que nuestro amigo se encuentre en el listado
+	2.- Hacer clic en el nombre de tu amigo encontrado
+	* Verficiar que estemos dentro del perfil de nuestro amigo
+	}
+	
+    entrarAlbums(){
+	1.- Hacer clic en la pestaña Fotos
+	* Verificar que se carguen las fotos
+	2.- Hacer clic en la pestaña Albumes
+	* Verficiar que se carguen los albumes
+	3.- Hacer clic dentro del Album deseado
+	* Verficiar que se carguen fotos
+	}
+	
+    ver20Fotos(){
+	if(fotos->si existen fotos){
+	contadorFotos = 0
+	while(contadorFotos es menor que 20){
+		1.- Hacer clic en la foto
+		2.- Posicionarse sobre la siguiente foto
+		contadorFotos ++
+		}
+	else{
+	imprimir ("No tiene fotos")
+	}
+	}
+	
+	imprimir ("Termiaste de ver fotos")
+	
+	
