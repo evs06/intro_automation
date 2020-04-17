@@ -1,0 +1,34 @@
+Add A New Song
+<h1>Add A New Song</h1>
+
+Title:
+<label for="title">Title:</label>
+Campo title:
+<input id="title" name="song[title]" type="text" value="">
+
+Length:
+<label for="length">Length:</label>
+Campo Length:
+<input id="length" name="song[length]" type="number" value="">
+
+
+Date(mm/dd/yyyy):
+<label for="released_on">Date(mm/dd/yyyy):</label>
+Campo Date(mm/dd/yyyy):
+<input id="released_on" name="song[released_on]" type="text" value="">
+
+
+Lyrics:
+<label for="lyrics">Lyrics:</label>
+Campo Lyrics:
+<textarea id="lyrics" name="song[lyrics]"></textarea>
+
+
+Botón Save Song:
+<input type="submit" value="Save Song">
+
+log out:
+<a href="/logout">log out</a>
+
+
+
